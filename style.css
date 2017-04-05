@@ -1,0 +1,59 @@
+#app{
+  background-color: grey;
+  width: 320px;
+  border: solid grey 2px ;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  margin:auto;
+  margin-top: 30px;
+  border:2px solid black;
+}
+
+#inputField{
+  height:70px;
+  width: 90%;
+  margin: 10px;
+  border-radius:3px;
+  border: 2px solid grey;
+  background-color:#98BE8E;
+  font-size:30px;
+  text-align:right;
+  border: 2px solid black;
+}
+
+#btn-container{
+  width: 90%;
+  height: 290px;
+  margin-left:16px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.number{
+  background-color:#E9E9E9;
+}
+#allclear,#clear{
+  background-color:#FF200F;
+}
+.operator{
+  background-color:#2E9AFE;
+}
+#memminus,#memclear,#memplus{
+  background-color: #FFBF00;
+}
+
+.btn-calc{
+  border-radius:10px;
+  height:50px;
+  width:50px;
+  border: solid black 2px ;
+  font-size: 20px;
+  margin: 4px;
+}
+
+.plus{
+  flex-grow: 1;
+}
